@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Police Behavior and the Benifits of Keeping Track"
+title:      "Keeping Track of What's Important in 2020"
 date:       2020-06-28 18:43:29 -0400
 permalink:  police_behavior_and_the_benifits_of_keeping_track
 ---
