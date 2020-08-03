@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Nesting forms"
-date:       2020-08-03 22:03:39 +0000
+date:       2020-08-03 18:03:40 -0400
 permalink:  nesting_forms
 ---
 
@@ -26,8 +26,8 @@ Let's go back to the post example above. Say you want to make a post that just n
 `<%= form_for @post do |f| %>`<br>
   `<%= f.label :title %>`<br>
   `<%= f.text_field :title %>`<br>
- ` <%= f.label :content %>`<br>
- ` <%= f.text_area :content %>`<br>
+ `<%= f.label :content %>`<br>
+ `<%= f.text_area :content %>`<br>
 `<% end %>`<br><br>
 
 For a basic form this might do the job, but what if you know you want to create other things at the same time? It’s not always reasonable to force someone to take multiple steps when one step will do.
