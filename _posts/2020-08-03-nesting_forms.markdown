@@ -66,7 +66,7 @@ With a nested form like this, we need to build the object that will be used - mu
 To do this in UserController, we would update the #edit action to:
 
 `def edit`<br>
- ` @user.talks.build`<br>
+ ` @user.tags.build`<br>
 `end`<br>
 
 Without this, our talk fields would not be displayed correctly in the form.
