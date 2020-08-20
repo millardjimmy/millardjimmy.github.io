@@ -46,14 +46,14 @@ const doSomethingOnViewPort768AndLower = (test) => {
         titleInFooter.textContent = "WYCBW";
         hireMe.querySelector("div.hire a").textContent = "My Email";
         hireMe.querySelector("div.hire a").title =
-            "whatyoucodingboutwillis@gmail.com";
+            "jimmy@millard.io";
         copyright.style.fontSize = ".7rem";
         hireMe.style.fontSize = ".7rem";
         explorer.style.display = "none";
     } else {
-        titleInFooter.textContent = "WhatYouCodingBoutWillis";
+        titleInFooter.textContent = "Millard";
         hireMe.querySelector("div.hire a").textContent =
-            "whatyoucodingboutwillis@gmail.com";
+            "jimmy@millard.io";
         copyright.style.fontSize = ".5rem";
         hireMe.style.fontSize = ".5rem";
         handleSocialIconAnimation();

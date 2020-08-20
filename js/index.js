@@ -17,10 +17,10 @@ const gitProjects = document.querySelector("li.git-projects");
 const readmePath = document.querySelector("div.readme-path");
 const projectsPath = document.querySelector("div.projects-path");
 const contactPath = document.querySelector("div.contact-path");
-const nayaImageContWithCaptionMax = document.querySelector(
+const millardImageContWithCaptionMax = document.querySelector(
     "div.naya-image-cont-max"
 );
-const nayaImageContWithCaptionMin = document.querySelector(
+const millardImageContWithCaptionMin = document.querySelector(
     "div.naya-image-cont-min"
 );
 const skillsEducation = document.querySelector("div.skills-education");
@@ -75,7 +75,7 @@ const handleIconAnimation = () => {
 };
 
 const handleReRenderIfVisitedAlready = () => {
-    if (localStorage.url === "http://whatyoucodingboutwillis.com/") {
+    if (localStorage.url === "http://millard.io/") {
         landingPage.style.display = "none";
         editorSimulation.style.display = "block";
         handleAnimation(editorSimulation, "animate__fadeInUp", "animate__fast");

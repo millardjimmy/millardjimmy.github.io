@@ -65,7 +65,7 @@ div.divider {
 }
 
 body {
-  background-image: url("/images/desktop-b4.jpeg");
+  background-image: url("/images/desktop-b1.jpeg");
   background-position: center;
   background-size: cover;
   font-family: "Source Code Pro", monospace;
@@ -102,7 +102,7 @@ body div.wrapper div.landing {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url("/images/desktop-b4.jpeg");
+  background-image: url("/images/desktop-b1.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
