@@ -18,10 +18,10 @@ const readmePath = document.querySelector("div.readme-path");
 const projectsPath = document.querySelector("div.projects-path");
 const contactPath = document.querySelector("div.contact-path");
 const millardImageContWithCaptionMax = document.querySelector(
-    "div.naya-image-cont-max"
+    "div.millard-image-cont-max"
 );
 const millardImageContWithCaptionMin = document.querySelector(
-    "div.naya-image-cont-min"
+    "div.millard-image-cont-min"
 );
 const skillsEducation = document.querySelector("div.skills-education");
 const divTooltip = document.createElement("div");
@@ -181,8 +181,8 @@ const handleTabClick = () => {
                 readme.style.display = "block";
                 readme.style.backgroundColor = "#272727";
                 readmePath.style.display = "block";
-                nayaImageContWithCaptionMax.style.display = "block";
-                nayaImageContWithCaptionMin.style.display = "block";
+                millardImageContWithCaptionMax.style.display = "block";
+                millardImageContWithCaptionMin.style.display = "block";
                 skillsEducation.style.display = "block";
                 Array.from(lineNumbersDivs).forEach((div) => {
                     div.style.display = "block";
@@ -218,8 +218,8 @@ const handleTabClick = () => {
                 readme.style.display = "block";
                 readmePath.style.display = "none";
                 readme.style.backgroundColor = "#505050";
-                nayaImageContWithCaptionMax.style.display = "none";
-                nayaImageContWithCaptionMin.style.display = "none";
+                millardImageContWithCaptionMax.style.display = "none";
+                millardImageContWithCaptionMin.style.display = "none";
                 skillsEducation.style.display = "none";
 
                 // turn off contact stuff
@@ -247,8 +247,8 @@ const handleTabClick = () => {
                 readme.style.display = "block";
                 readmePath.style.display = "none";
                 readme.style.backgroundColor = "#505050";
-                nayaImageContWithCaptionMax.style.display = "none";
-                nayaImageContWithCaptionMin.style.display = "none";
+                millardImageContWithCaptionMax.style.display = "none";
+                millardImageContWithCaptionMin.style.display = "none";
                 skillsEducation.style.display = "none";
             }
         });
@@ -264,8 +264,8 @@ const handleTabContentRender = () => {
                 readme.style.display = "block";
                 readme.style.backgroundColor = "#272727";
                 readmePath.style.display = "block";
-                nayaImageContWithCaptionMax.style.display = "block";
-                nayaImageContWithCaptionMin.style.display = "block";
+                millardImageContWithCaptionMax.style.display = "block";
+                millardImageContWithCaptionMin.style.display = "block";
                 skillsEducation.style.display = "block";
                 Array.from(lineNumbersDivs).forEach((div) => {
                     div.style.display = "block";
@@ -301,8 +301,8 @@ const handleTabContentRender = () => {
                 readme.style.display = "block";
                 readmePath.style.display = "none";
                 readme.style.backgroundColor = "#505050";
-                nayaImageContWithCaptionMax.style.display = "none";
-                nayaImageContWithCaptionMin.style.display = "none";
+                millardImageContWithCaptionMax.style.display = "none";
+                millardImageContWithCaptionMin.style.display = "none";
                 skillsEducation.style.display = "none";
 
                 // turn off contact stuff
@@ -330,8 +330,8 @@ const handleTabContentRender = () => {
                 readme.style.display = "block";
                 readmePath.style.display = "none";
                 readme.style.backgroundColor = "#505050";
-                nayaImageContWithCaptionMax.style.display = "none";
-                nayaImageContWithCaptionMin.style.display = "none";
+                millardImageContWithCaptionMax.style.display = "none";
+                millardImageContWithCaptionMin.style.display = "none";
                 skillsEducation.style.display = "none";
             }
         });
