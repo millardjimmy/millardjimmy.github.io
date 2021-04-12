@@ -145,6 +145,7 @@ $(() => {
   pages.push($.get('pages/root.html'));
   pages.push($.get('pages/skills.html'));
   pages.push($.get('pages/todo.html'));
+  pages.push($.get('pages/admin.html'));
   $.when
     .apply($, pages)
     .done(
@@ -158,6 +159,7 @@ $(() => {
         rootData,
         skillsData,
         todoData,
+        adminData,
       ) => {
         systemData['about'] = aboutData[0];
         systemData['contact'] = contactData[0];
@@ -168,6 +170,7 @@ $(() => {
         systemData['root'] = rootData[0];
         systemData['skills'] = skillsData[0];
         systemData['todo'] = todoData[0];
+        systemData['admin'] = adminData[0];
       },
     );
 
