@@ -1,7 +1,7 @@
 {
-  "name": "codebyte.re",
+  "name": "millardtemp",
   "version": "1.0.0",
-  "description": "codebytere's personal website",
+  "description": "millard's personal website",
   "main": "js/cli.js",
   "scripts": {
     "dev": "http-server -o",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codebytere/codebytere.github.io.git"
+    "url": "git+https://github.com/"
   },
-  "author": "Shelley Vohr <shelley.vohr@gmail.com>",
+  "author": "Jimmy Millard <jimmy@millard.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codebytere/codebytere.github.io/issues"
+    "url": "https://github.com/"
   },
-  "homepage": "https://github.com/codebytere/codebytere.github.io#readme",
+  "homepage": "https://github.com/",
   "devDependencies": {
     "http-server": "^0.12.1",
     "prettier": "^2.0.2"
