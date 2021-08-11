@@ -130,8 +130,9 @@ commands.cat = (filename) => {
 
 // Initialize cli.
 $(() => {
-  registerFullscreenToggle();
+  
   registerMinimizedToggle();
+  registerFullscreenToggle();
   const cmd = document.getElementById('terminal');
 
   $.ajaxSetup({ cache: false });
