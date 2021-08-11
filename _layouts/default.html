@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% if page.url == '/' %}
+    <title>Satrio Yamanda / Indonesian front-end web developer & designer</title>
+    {% else %}
+    <title>{{page.title}} / Satrio Yamanda</title>
+    {% endif %}
+    <meta charset="UTF-8">
+    <meta name="description" content="{{page.description}}">
+    <meta name="keyword" content="graphic designer majalengka, graphic designer indonesia, web developer indonesia">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{{site.baseurl}}/res/img/logo.png" rel="icon">
+    <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    {{ content }}
+  <script src="{{site.baseurl}}/js/script.js"></script>
+  </body>
+</html>

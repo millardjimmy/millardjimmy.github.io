@@ -1,0 +1,74 @@
+<svg width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Motion</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(952 204)">
+<g id="Motion">
+<g id="Background">
+<use xlink:href="#path0_fill" transform="translate(-952 -204)" fill="#FFFFFF" fill-opacity="0.01"/>
+</g>
+<g id="Motion Icon">
+<g id="Vector 12">
+<use xlink:href="#path1_stroke" transform="translate(-934 -166)"/>
+</g>
+<g id="Vector 12">
+<use xlink:href="#path2_stroke" transform="translate(-946 -166)"/>
+</g>
+<g id="Vector 12">
+<use xlink:href="#path2_stroke" transform="translate(-946 -158)"/>
+</g>
+<g id="Vector 12">
+<use xlink:href="#path2_stroke" transform="translate(-946 -150)"/>
+</g>
+<g id="Vector 12">
+<use xlink:href="#path1_stroke" transform="translate(-934 -158)"/>
+</g>
+<g id="Vector 12">
+<use xlink:href="#path1_stroke" transform="translate(-934 -150)"/>
+</g>
+<g id="Rectangle 13">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path3_fill" fill="white" transform="translate(-946 -194)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path4_stroke_2x" transform="translate(-946 -194)"/>
+</g>
+</g>
+<g id="Rectangle 13">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path5_fill" fill="white" transform="matrix(0.707107 0.707107 -0.707107 0.707107 -919.5 -196.701)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path6_stroke_2x" transform="matrix(0.707107 0.707107 -0.707107 0.707107 -919.5 -196.701)"/>
+</g>
+</g>
+<g id="Rectangle 13">
+<mask id="mask2_outline_ins">
+<use xlink:href="#path7_fill" fill="white" transform="translate(-908 -194)"/>
+</mask>
+<g mask="url(#mask2_outline_ins)">
+<use xlink:href="#path8_stroke_2x" transform="translate(-908 -194)"/>
+</g>
+</g>
+<g id="Vector 13">
+<use xlink:href="#path9_stroke" transform="translate(-930 -166)"/>
+</g>
+<g id="Vector 13">
+<use xlink:href="#path10_stroke" transform="translate(-930 -171)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 64 0L 64 64L 0 64L 0 0Z"/>
+<path id="path1_stroke" d="M 0 1L 40 1L 40 -1L 0 -1L 0 1Z"/>
+<path id="path2_stroke" d="M 0 1L 8 1L 8 -1L 0 -1L 0 1Z"/>
+<path id="path3_fill" d="M 0 0L 14 0L 14 14L 0 14L 0 0Z"/>
+<path id="path4_stroke_2x" d="M 0 0L 0 -2L -2 -2L -2 0L 0 0ZM 14 0L 16 0L 16 -2L 14 -2L 14 0ZM 14 14L 14 16L 16 16L 16 14L 14 14ZM 0 14L -2 14L -2 16L 0 16L 0 14ZM 0 2L 14 2L 14 -2L 0 -2L 0 2ZM 12 0L 12 14L 16 14L 16 0L 12 0ZM 14 12L 0 12L 0 16L 14 16L 14 12ZM 2 14L 2 0L -2 0L -2 14L 2 14Z"/>
+<path id="path5_fill" d="M 0 4C 0 1.79086 1.79086 0 4 0L 9.57715 0C 11.7863 0 13.5771 1.79086 13.5771 4L 13.5771 9.57715C 13.5771 11.7863 11.7863 13.5771 9.57715 13.5771L 4 13.5771C 1.79086 13.5771 0 11.7863 0 9.57715L 0 4Z"/>
+<path id="path6_stroke_2x" d="M 4 2L 9.57715 2L 9.57715 -2L 4 -2L 4 2ZM 11.5771 4L 11.5771 9.57715L 15.5771 9.57715L 15.5771 4L 11.5771 4ZM 9.57715 11.5771L 4 11.5771L 4 15.5771L 9.57715 15.5771L 9.57715 11.5771ZM 2 9.57715L 2 4L -2 4L -2 9.57715L 2 9.57715ZM 4 -2C 0.686292 -2 -2 0.686292 -2 4L 2 4C 2 2.89543 2.89543 2 4 2L 4 -2ZM 9.57715 2C 10.6817 2 11.5771 2.89543 11.5771 4L 15.5771 4C 15.5771 0.686292 12.8909 -2 9.57715 -2L 9.57715 2ZM 11.5771 9.57715C 11.5771 10.6817 10.6817 11.5771 9.57715 11.5771L 9.57715 15.5771C 12.8909 15.5771 15.5771 12.8909 15.5771 9.57715L 11.5771 9.57715ZM 4 11.5771C 2.89543 11.5771 2 10.6817 2 9.57715L -2 9.57715C -2 12.8909 0.686292 15.5771 4 15.5771L 4 11.5771Z"/>
+<path id="path7_fill" d="M 0 7C 0 3.13401 3.13401 0 7 0L 7 0C 10.866 0 14 3.13401 14 7L 14 7C 14 10.866 10.866 14 7 14L 7 14C 3.13401 14 0 10.866 0 7L 0 7Z"/>
+<path id="path8_stroke_2x" d="M 7 -2C 2.02944 -2 -2 2.02944 -2 7L 2 7C 2 4.23858 4.23858 2 7 2L 7 -2ZM 7 2C 9.76142 2 12 4.23858 12 7L 16 7C 16 2.02944 11.9706 -2 7 -2L 7 2ZM 12 7C 12 9.76142 9.76142 12 7 12L 7 16C 11.9706 16 16 11.9706 16 7L 12 7ZM 7 12C 4.23858 12 2 9.76142 2 7L -2 7C -2 11.9706 2.02944 16 7 16L 7 12Z"/>
+<path id="path9_stroke" d="M -1 0L -1 16L 1 16L 1 0L -1 0Z"/>
+<path id="path10_stroke" d="M -1 0L -1 3L 1 3L 1 0L -1 0Z"/>
+</defs>
+</svg>

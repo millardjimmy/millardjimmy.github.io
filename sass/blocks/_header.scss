@@ -1,0 +1,104 @@
+%logo {
+  width: 72px;
+  height: 64px;
+  margin-bottom: 0.67em;
+  background-image: url('../res/img/logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.logo-front {
+  @extend %logo;
+  @include mq(desktop) {
+    position: absolute;
+    top: 2.22em; left: 0;
+    z-index: 100;
+  }
+}
+
+.logo-inner {
+  @extend %logo;
+  display: inline-block;
+  margin-top: 2.22em;
+}
+
+.page-header {
+  background-color: $color-brand;
+  @include mq(tablet) {
+    height: 61.8vh;
+  }
+}
+
+.nav-front {
+  margin-bottom: 1em;
+  & li {
+    display: inline-block;
+  }
+  & a {
+    display: block;
+    padding: 0.44em 0.67em 0.44em 0;
+  }
+  & .copyright-info {
+    display: none;
+  }
+  @include mq(desktop) {
+    position: absolute;
+    top: 2.22em; right: 0;
+    z-index: 100;
+    & li {
+      display: block;
+    }
+    & a {
+      text-align: right;
+    }
+  }
+}
+
+.nav-inner {
+  position: fixed;
+  right: -17.78em;
+  top: 0;
+  width: 17.78em;
+  height: 100vh;
+  background-color: $color-light;
+  z-index: 100;
+  transition: transform 0.44s ease-in-out;
+  & ul {
+    list-style: none;
+    margin-left: 0;
+    padding-top: 2.22em;
+  }
+  & a {
+    display: block;
+    padding: 0.67em 0 0.67em 2.22em;
+  }
+  & .copyright-info {
+    position: absolute;
+    bottom: 1.5em;
+    left: 2.22em;
+  }
+}
+
+.nav-opened {
+  transform: translateX(-17.78em);
+}
+
+.nav-button {
+  position: fixed;
+  top: 2.22em;
+  right: $padding;
+  width: 1.5em;
+  height: 1.5em;
+  background-image: url('../res/img/nav-button.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 100;
+  @include mq(desktop) {
+    margin-left: 12%;
+    right: auto;
+  }
+}
+
+.current {
+  font-weight: bold;
+}

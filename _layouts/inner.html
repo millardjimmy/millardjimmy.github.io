@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<header class="container-full page-header">
+  <div class="container">
+    <div class="line">
+      <div class="unit-full unit-1of6-d">
+        <a href="{{site.baseurl}}/">
+          <div class="logo-inner">
+            <!-- Intended to be blank  -->
+          </div>
+        </a>
+      </div>
+      <div class="unit-full unit-2of3-d">
+        <div class="page-title">
+          <h1 class="h2">{{page.title}}</h1>
+        </div>
+      </div>
+      <a href="javascript:void(0)" class="nav-button"></a>
+      {% include nav.html navtype='nav-inner' %}
+    </div>
+  </div>
+</header>
+
+{{content}}
+
+{% include footer-cta.html %}
+
+<footer class="page-footer container">
+  <div class="line">
+    <div class="unit-full unit-half-t">
+      <span class="copyright-info">&copy; 2017 Satrio Yamanda Putra</span>
+    </div>
+    <div class="unit-full unit-half-t">
+      <nav class="social-button">
+        <ul>
+          <li><a href="https://facebook.com/satrioyamanda">Facebook</a></li>
+          <li><a href="https://github.com/satrioyamanda">Github</a></li>
+          <li><a href="https://instagram.com/satrioyamanda">Instagram</a></li>
+          <li><a href="https://dribbble.com/yamanda">Dribbble</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>

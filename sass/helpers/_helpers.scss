@@ -1,0 +1,22 @@
+.hidden {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.has-bottom-space {
+  margin-bottom: 1.5em;
+  @include mq(tablet) {
+    margin-bottom: 3.33em;
+  }
+}
+
+.clear-v-space {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.inline-block {
+  display: inline-block;
+}
